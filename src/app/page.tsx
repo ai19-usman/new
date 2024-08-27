@@ -1,8 +1,8 @@
-import React from 'react';  // Corrected import for React
-import Image from 'next/image';  // Import Image component
+import React from 'react';  
+import Image from 'next/image';  
 
-const Page = () => {  // Capitalized component name
-  return (
+const Page = () => {  
+   return (
     <main className="flex min-h-screen flex-col items-left p-4">
       <div>
         <figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
@@ -23,10 +23,10 @@ const Page = () => {  // Capitalized component name
             </blockquote>
             <figcaption className="font-medium">
               <div className="text-sky-500 dark:text-sky-400">
-                Sarah Dayan
+                Syed usman ali
               </div>
               <div className="text-slate-700 dark:text-slate-500">
-                Staff Engineer, Algolia
+               Subjectspecialist Teacher, Rahim Yar Khan
               </div>
             </figcaption>
           </div>
@@ -36,4 +36,4 @@ const Page = () => {  // Capitalized component name
   );
 }
 
-export default Page // Corrected export
+export default Page 
